@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#intro {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 4em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.credit {
+    opacity: 0;
+    transition: opacity 2s;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 10px 0;
+}
+
+.personalCredit {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.divisor {
+    height: 2em;
+    width: 3px;
+    background-color: #9B1B30;
+}
+
+.logoPessoal {
+    width: 2em;
+    height: 2em;
+}

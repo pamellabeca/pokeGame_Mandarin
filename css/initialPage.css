@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    height: 100vh;
+    margin: 0;
+    position: relative;
+
+    background-image: url('../assets/pokebola\ render.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.button{
+    padding: 16px;
+    border: none;
+    border-radius: 8px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    text-transform: uppercase;
+
+    display: flex;
+    align-items: center;
+    gap: 16px;
+
+    cursor: pointer;
+    transition: 0.3s background-color ease-out;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.button:hover{
+    background-color: #c7445a;
+    color: white;
+}
+
+.button img{
+    width: 24px;
+    height: 24px;
+}
+
+

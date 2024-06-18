@@ -10,8 +10,10 @@
 </head>
 <body>
     <div class="http-request">
-        <div class="request-container">
-            <img src="../assets/who_pokemon.0.jpg" alt="who_pokemon">
+        <div class="request-container" id="request-container">
+            <div id="image-container">
+                <img src="../assets/who_pokemon.0.jpg" alt="who_pokemon" id="pokemon-image">
+            </div>
             <div class="informations">
                 <h3 id="name">??????</h3>
                 <p id="type">??????</p>
@@ -21,7 +23,7 @@
                 <button id="runAway">????</button>
             </div>
         </div>
-        <button class="request-button">
+        <button class="request-button" id="request-button">
             Gerar Pokémon
         </button>
     </div>
@@ -37,7 +39,7 @@
             </div>
         </div>
     </div>
-    <script src="../js/floatMessage.js"></script>
     <script src="../js/sortPokemon.js"></script>
+    <script src="../js/floatMessage.js"></script>
 </body>
 </html>

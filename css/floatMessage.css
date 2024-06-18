@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    position: relative;
+
+    background-image: url('../assets/pokemons-bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.avatar-container {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.avatar {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.message-container {
+    position: relative;
+    top: 20px;
+    background: white;
+
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1;
+
+    font-weight: 600;
+}
+
+.message {
+    margin-bottom: 10px;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.controls button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    border: none;
+    background-color: #c7445a;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.controls button:hover {
+    background-color: #a83245;
+}
+
+@media (max-width: 600px) {
+    .avatar {
+        width: 100px;
+    }
+
+    .message-container {
+        top: 10px;
+        padding: 5px;
+    }
+
+    .controls button {
+        margin: 0 2px;
+        padding: 5px 5px;
+        font-size: 0.8em;
+    }
+}

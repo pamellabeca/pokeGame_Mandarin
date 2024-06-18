@@ -1,8 +1,9 @@
 document.addEventListener("DOMContentLoaded", () => {
     const messages = [
-        "Olá, meu nome é Pamella! Bem-vindo ao jogo Pokémon!",
+        "Olá, meu nome é Pamella! Bem-vindo(a) ao jogo Pokémon!",
         "Pronto(a) para começar?",
-        "clique no botão 'Gerar Pokémon' para começar.",
+        "Esse jogo é um desafio proposto pela Agência Mandarin para vaga de estágio em Desenvolvimento",
+        "Clique no botão 'Gerar Pokémon' para começar.",
         "Ah! os botões de 'Atack' e 'Run Away' não funcionam, tá?"
     ];
     

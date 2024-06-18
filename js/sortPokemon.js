@@ -1,8 +1,22 @@
 document.addEventListener("DOMContentLoaded", function() {
-    // Requisição HTTP da API GET e obtenção de dados
     const requestButton = document.getElementById("request-button");    
-    requestButton.addEventListener("click", fetchPokemon);
+    const audioWho = document.getElementById("audio-who");
 
+    //Toca o áudio por 6 segundos antes de fazer a requisição
+    requestButton.addEventListener("click", () => {
+        playAudioThenFetch();
+    });
+
+    function playAudioThenFetch() {
+        audioWho.currentTime = 0;
+        audioWho.play();
+        
+        setTimeout(() => {
+            fetchPokemon();
+        }, 6000);
+    }
+
+    // Requisição HTTP da API GET e obtenção de dados
     function fetchPokemon() {
         const apiUrl = 'https://dev-api-teste.mandarin.com.br/pokemons';
         
@@ -30,7 +44,6 @@ document.addEventListener("DOMContentLoaded", function() {
         const imageContainer = document.getElementById('image-container');
         const attackButton = document.getElementById('attack');
         const runAwayButton = document.getElementById('runAway');
-        const requestButton = document.getElementById('request-button');
 
         imageElement.src = pokemon.image_url;
         imageElement.classList.add('small');

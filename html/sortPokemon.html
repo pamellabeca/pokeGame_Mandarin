@@ -3,16 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="../assets/pokeball-pokemon-svgrepo-com.svg" type="image/x-icon">
+    <link rel="shortcut icon" href="../assets/images/pokeball-pokemon-svgrepo-com.svg" type="image/x-icon">
     <link rel="stylesheet" href="../css/sortPokemon.css">
     <link rel="stylesheet" href="../css/floatMessage.css">
     <title>Who is that Pokemón?</title>
 </head>
 <body>
+    <audio id="audio-who">
+        <source src="../assets/audios/_Who's That Pokemon__ Sound Effect (320).mp3" type="audio/x-mp3">
+    </audio>
+
     <div class="http-request">
         <div class="request-container" id="request-container">
             <div id="image-container">
-                <img src="../assets/who_pokemon.0.jpg" alt="who_pokemon" id="pokemon-image">
+                <img src="../assets/images/who_pokemon.0.jpg" alt="who_pokemon" id="pokemon-image">
             </div>
             <div class="informations">
                 <h3 id="name">??????</h3>
@@ -30,7 +34,7 @@
 
     <!-- mensagem flutuante  -->
     <div class="avatar-container">
-        <img class="avatar" src="../assets/Ilustração_Sem_Título.png" alt="avatar pamella">
+        <img class="avatar" src="../assets/images/Ilustração_Sem_Título.png" alt="avatar pamella">
         <div class="message-container">
             <div class="message" id="message">Olá, meu nome é Pamella! Bem-vindo(a) ao jogo Pokémon!</div>
             <div class="controls">

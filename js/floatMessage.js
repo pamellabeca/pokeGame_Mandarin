@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
         "Pronto(a) para começar?",
         "Esse jogo é um desafio proposto pela Agência Mandarin para vaga de estágio em Desenvolvimento.",
         "Não esqueça de aumentar o volume para uma melhor experiência!",
-        "Clique no botão 'Gerar Pokémon' para começar.",
+        "Clique no botão 'Gerar Pokémon' para começar, ou pesquise o desejado na barra e clique na lupa.",
         "Ah! Os botões de 'Atack' e 'Run Away' não funcionam, tá?"
     ];
     

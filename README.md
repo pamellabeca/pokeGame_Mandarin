@@ -68,7 +68,7 @@ https://dev-api-teste.mandarin.com.br/pokemons
    cd pokegame_mandarin
    ```
 
-3. Abra o arquivo `index.html` no seu navegador para visualizar a página inicial ou acesse o [Deploy do projeto no Vercel]([https://pamellabeca.github.io/pokeGame_Mandarin/](https://poke-game-mandarin.vercel.app/html/intro.html)).
+3. Abra o arquivo `index.html` no seu navegador para visualizar a página inicial ou acesse o [Deploy do projeto no Vercel](https://poke-game-mandarin.vercel.app/).
 
 
 ## Créditos

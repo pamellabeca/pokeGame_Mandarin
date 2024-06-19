@@ -144,3 +144,22 @@
 .request-button:hover{
     background-color: #9B1B30;
 }
+
+/* Resposividade para celulares de até 600px de largura */
+@media screen and (max-width: 600px){
+    #image-container{
+        max-height: 200px;
+    }
+}
+
+/* Resposividade para tablets de até 1024px de largura */
+@media screen and (max-width: 1024px){
+    .http-request{
+        width: 85%;
+        top: 50%;
+    }
+
+    #image-container{
+        height: 320px;
+    }
+}
